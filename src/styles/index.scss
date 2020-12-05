@@ -11,3 +11,52 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.lightstick, .trafficlight {
+
+    background-color: black;
+    }
+
+.lightstick {
+    width: 10px;
+    height: 40px
+}
+
+.trafficlight {
+    width: 70px;
+    height: 200px;
+}
+
+.bottomspace {
+    margin-bottom: 5px;
+
+}
+.light {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px; 
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.selected {
+
+    box-shadow: 0px 0px 10px 5px yellow;
+
+
+}
+
+input{
+  display:block;
+}
